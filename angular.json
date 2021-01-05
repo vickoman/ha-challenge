@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "ha-challenge"
+  "defaultProject": "ha-challenge",
+  "cli": {
+    "analytics": false
+  }
 }
