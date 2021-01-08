@@ -1,0 +1,18 @@
+.flex-container {
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    margin: 10px 0px 0px 0px;
+    width: 1240px;
+    margin: 20px auto;
+}
+
+.nowrap  { 
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+

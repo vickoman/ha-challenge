@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "handes-project": {
+      "hosting": {
+        "ha-challenge": [
+          "handes-project"
+        ]
+      }
+    }
+  }
+}

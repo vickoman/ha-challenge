@@ -1,0 +1,17 @@
+<div class="table-container">
+    <table id="customers">
+        <thead>
+            <tr>
+                <th *ngFor="let colum of listOfColumns" [style.width.%]="100/listOfColumns.length">{{colum}}</th>
+            </tr>
+        </thead>
+        <tr *ngFor="let info of dataList">
+            <td *ngFor="let data of info | keyvalue: sortNull">
+                <span *ngIf="data.key === 'detalle'; else withoutDetail" [innerHtml]="data.value"></span>
+                <ng-template #withoutDetail >
+                    {{data.value}}
+                </ng-template>
+            </td>
+        </tr>
+    </table>
+</div>
